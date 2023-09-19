@@ -47,7 +47,7 @@ ul {
     color: var(--light);
 }
 .header-menu-nav {
-    color: var(--dark);
+    color: var(--dark); 
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -55,7 +55,7 @@ ul {
 }
 
 .header-menu-nav:hover,
-.header-menu-nav:focus a {
+.header-menu-nav:focus {
     color: var(--pressed-state);
 }
     
