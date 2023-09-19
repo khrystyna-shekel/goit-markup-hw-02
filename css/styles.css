@@ -35,9 +35,13 @@ ul {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        text-decoration: none;
 }
 
+.logo-studio {
+    color: var(--dark);
 
+}
 .header-menu-nav {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 16px;
@@ -51,16 +55,17 @@ ul {
     color: var(--pressed-state);
 }
     
-.contact-info {
+.contact-list {
     color: var(--SLATE, #434455);
         font-size: 16px;
         font-weight: 400;
+        font-style: normal;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
 
-.contact-info:hover,
-.contact-linfo:focus {
+.contact-list:hover,
+.contact-list:focus {
     color: var(--pressed-state);
 }
 
@@ -106,13 +111,13 @@ color: var(--text);
 
 .hero-button:hover,
 .hero-button:focus {
-    color: var(--pressed-state);
+    background-color: var(--pressed-state);
 }
 
 /* PECULARITIES */
 
 /* WHAT ARE WE DOING */
-.section-title, .team-title {
+.section-title {
     color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
         font-size: 36px;
@@ -121,21 +126,19 @@ color: var(--text);
         text-transform: capitalize;
 }
 /* PORTFOLIO */
-.filter-items {
+.filter-button{
     color: var(--primary-brand);
-        text-align: center;
-        font-size: 16px;
+        text-align: center;    
         font-family: inherit;
+        font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        background-color: var(--light);
         cursor: pointer;
-        border: none;
 }
 
-.filter-items:hover,
-.filter-items:focus {
+.filter-button:hover,
+.filter-button:focus {
     color: var(--white-bckg);
     background-color: var(--pressed-state);
 }
