@@ -62,7 +62,8 @@ ul {
 .contacts {
     font-style: normal;
 }
-.contact-list {
+
+.contact-list a { 
     color: var(--text);
         font-size: 16px;
         font-weight: 400;
@@ -132,7 +133,7 @@ color: var(--text);
         text-transform: capitalize;
 }
 /* PORTFOLIO */
-.filter-item{
+.filter-button{
     color: var(--primary-brand);
         text-align: center;    
         font-family: inherit;
@@ -143,18 +144,18 @@ color: var(--text);
         cursor: pointer;
 }
 
-.filter-item:hover,
-.filter-item:focus {
+.filter-button:hover,
+.filter-button:focus {
     color: var(--white-bckg);
     background-color: var(--pressed-state);
 }
 
 /* OUR TEEM */
 .team-section {
-    background-color: var(--white-bckg);
+    background-color: var(--light);
 }
 
-.team-item {
+.team-members {
     background-color: var(--white-bckg);
 }
 
