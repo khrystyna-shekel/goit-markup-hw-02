@@ -38,9 +38,13 @@ ul {
         text-decoration: none;
 }
 
-.logo-studio {
+.dark-logo-studio {
     color: var(--dark);
 
+}
+
+.light-logo-studio {
+    color: var(--light);
 }
 .header-menu-nav {
     color: var(--NAVY-BLUE, #2E2F42);
