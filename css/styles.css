@@ -76,22 +76,6 @@ ul {
     color: var(--pressed-state);
 }
 
-.item-title {
-color: var(--dark);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.item-descr {
-color: var(--text);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;;
-}
-
 /* HERO */
 .hero-section {
     background-color: var(--dark);
@@ -122,6 +106,23 @@ color: var(--text);
 }
 
 /* PECULARITIES */
+
+.item-title {
+    color: var(--dark);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.item-descr {
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    ;
+}
 
 /* WHAT ARE WE DOING */
 .section-title {
