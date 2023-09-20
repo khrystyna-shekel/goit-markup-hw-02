@@ -136,6 +136,7 @@ ul {
 /* PORTFOLIO */
 .filter-button{
     color: var(--primary-brand);
+    background-color: var(--light);
         text-align: center;    
         font-family: inherit;
         font-size: 16px;
